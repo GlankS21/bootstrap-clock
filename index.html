@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clock App</title>
+  <script type="module" crossorigin src="/bootstrap-clock/assets/index-Dsz83p8J.js"></script>
+  <link rel="stylesheet" crossorigin href="/bootstrap-clock/assets/index-BtmJYOxZ.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 d-flex justify-content-center">
+        <button class="btn btn-danger btn-lg w-100" data-bs-toggle="modal" data-bs-target="#timeModal">
+          Показать время
+        </button>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+  <div class="modal fade" id="timeModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title">Выполнил: Хоанг Ван Куан</h5>
+          <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body fs-1 fw-semibold" id="timeContent"></div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
